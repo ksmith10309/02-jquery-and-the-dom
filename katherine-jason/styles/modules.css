@@ -29,6 +29,7 @@ li {
 img {
     display: block;
     margin: 10px auto;
+    width: 60vw;
 }
 
 header.clearfix {
@@ -53,7 +54,8 @@ header.clearfix {
     }
 
     img {
-        float: right;
+        /* float: right; */
+        width: 30vw;
     }
 
     header.clearfix {
