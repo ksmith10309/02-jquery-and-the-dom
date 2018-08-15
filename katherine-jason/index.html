@@ -20,14 +20,25 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <nav>
-      <div class="icon-menu"></div>
-      <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
-      </ul>
-    </nav>
+        <div class="dropdown">
+          <a href="#" class="icon-menu"></a>
+            <ul>
+              <li class="tab" data-content="articles">
+                <a href="#" class="icon-home"> Home</a>
+              </li>
+              <li class="tab" data-content="about">
+                <a href="#" class="icon-address-book"> About</a>
+              </li>
+              <li>
+                <a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a>
+              </li>
+              <li>
+                <a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a>
+              </li>
+            </ul>
+          
+        </div>
+      </nav>
   </header>
   <main>
     <section id="articles">
@@ -38,7 +49,7 @@
             By <address><a href="">Author Name</a></address>
             published <time datetime="2000-01-01">Publish Time</time>
             <!-- COMMENT: What is the <time> HTML element used for? How does this connect to our JS files?  -->
-            <!-- PUT YOUR RESPONSE HERE -->
+            <!-- This provides a container within the html for our JS files to display the data as a relative value to the articles publication date. -->
           </div>
         </header>
         <section class="article-body"></section>
