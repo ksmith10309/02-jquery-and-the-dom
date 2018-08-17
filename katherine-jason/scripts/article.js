@@ -32,7 +32,7 @@ Article.prototype.toHtml = function() {
   $newArticle.find('address a').text(this.author);
   $newArticle.find('address a').attr('href', this.authorUrl);
   $newArticle.find('.article-body').html(this.body);
-
+  $newArticle.find('time').attr('datetime', this.publishedOn);
   /* TODO: Now use jQuery traversal and setter methods to fill in the rest of the current template clone with values of the properties of this particular Article instance.
     We need to fill in:
       1. author name,
